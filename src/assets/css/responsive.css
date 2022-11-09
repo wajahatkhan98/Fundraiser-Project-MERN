@@ -1,0 +1,328 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* CSS */
+  .header-body li a {
+    padding: 0 0.7rem !important;
+    font-size: 10px !important;
+  }
+  .custom-header .btn {
+    font-size: 12px !important;
+  }
+  .custom-card {
+    width: 260px;
+  }
+  .banner-text {
+    font-size: 70px;
+  }
+  .team-img-1 {
+    width: 100%;
+  }
+  .team-img-2 {
+    height: 100%;
+  }
+  .invest-second .invest-search-input input {
+    width: 460px;
+  }
+  .investment-section h2 {
+    font-size: 60px;
+  }
+    .section2 .img img {
+    width: 65%;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .custom-card {
+    width: 100%;
+  }
+  .custom-card-two {
+    width: 100%;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+/* Tablets */
+@media (max-width: 991px) {
+  /* header  */
+
+  .header-main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--white);
+    height: 100%;
+    z-index: 1;
+    overflow: auto;
+  }
+  .header-hide {
+    width: 0px;
+    transition: all 0.4s ease-in-out;
+  }
+  .mobile-hide {
+    display: none !important;
+  }
+  .mobile-show {
+    display: block !important;
+  }
+  .header-show {
+    width: 300px;
+    transition: all 0.4s ease-in-out;
+  }
+  .header-main .header-body {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .header-body li {
+    padding: 0.5rem;
+  }
+  .mobile-header-top {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid;
+    border-color: var(--primary);
+  }
+  .mobile-header-top img {
+    width: 100px;
+  }
+  .mobile-header-top .cross-icon {
+    color: black;
+  }
+  .header-bottom {
+    display: block !important;
+    padding: 1rem 1.5rem;
+  }
+
+  /* header end  */
+
+  .team-img-1 {
+    height: 100%;
+    width: 100%;
+  }
+  .team-img-2 {
+    height: 100%;
+  }
+  .card-lg {
+    width: 100% !important;
+    padding: 0 0.9rem;
+  }
+  /* .custom-card-two {
+  } */
+  .banner-text {
+    font-size: 50px;
+  }
+  .common-heading {
+    margin-bottom: 30px;
+  }
+  .invest-second .invest-search-input input {
+    width: 450px;
+  }
+  .investment-section h2 {
+    font-size: 40px;
+  }
+  .investment-section h4 {
+    font-size: 18px;
+  }
+
+  .col-without-padding {
+    display: flex;
+  }
+  .col-without-padding .about-card-order-1 {
+    order: 1;
+  }
+  .col-without-padding .about-card-order-2 {
+    order: 2;
+  }
+  .col-without-padding .about-card-order-3 {
+    order: 3;
+  }
+  .col-without-padding .about-card-order-3 img {
+    width: 100%;
+  }
+  .col-without-padding .about-card-order-4 {
+    order: 4;
+  }
+  .items img {
+    width: 200px;
+  }
+  .items .title-section {
+    justify-content: space-between;
+  }
+  .chevron-icon {
+    display: inline-flex !important;
+  }
+
+  #investment-simulation .image img {
+    width: 50%;
+  }
+  .investment-second h2 {
+    font-size: 40px;
+  }
+  #investment-simulation .bg-image .content h3 {
+    margin: 0px;
+    font-size: 18px;
+  }
+  .section2 .img img {
+    width: 50%;
+  }
+  #section-bg-atteched .background-text .common-heading {
+    font-size: 26px;
+  }
+}
+/* Tablets */
+@media (max-width: 767px) {
+  .items .title-section {
+    justify-content: space-between;
+  }
+  .items .title-section h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .items p {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .items img {
+    width: 150px;
+  }
+  .invest-second .invest-search-input input {
+    width: 95%;
+  }
+  .investment-second {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .investment-second h3 {
+    font-size: 24px;
+  }
+  .investment-second h2 {
+    font-size: 35px;
+  }
+  .invest-second img {
+    width: 70%;
+  }
+  .investment-second p {
+    font-size: 16px;
+  }
+  .join-section .custom-input {
+    width: 375px !important;
+  }
+  .blog-body h3 {
+    font-size: 22px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 480px) {
+  .contact-image {
+    width: 100%;
+  }
+    .section2 .img img {
+    width: 100%;
+  }
+  #investment-simulation .bg-image .content h3 {
+    margin: 0px;
+    font-size: 12px;
+  }
+  #section-bg-atteched .background-text .common-heading {
+    font-size: 20px;
+  }
+  .items .title-section .first {
+    width: 75%;
+  }
+  .banner-text {
+    font-size: 22px;
+  }
+  .home-banner {
+    font-size: 35px;
+  }
+  .banner-inner {
+    height: 500px;
+  }
+  .logo-section img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .join-section .custom-input {
+    width: 200px !important;
+    margin-right: 1.5rem !important;
+  }
+}
+@media (max-width: 425px) {
+  .main-search {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .main-search .invest-search-input {
+    order: 1;
+    flex-basis: 100%;
+    margin-bottom: 25px;
+  }
+  .main-search .invest-drop-down {
+    order: 2;
+    flex-basis: 47%;
+  }
+  .main-search .search-btn {
+    order: 3;
+    flex-basis: 47%;
+  }
+  .main-search .css-pe0pe4-MuiFormControl-root {
+    width: 100%;
+  }
+  .main-search .search-btn .btn {
+    width: 100% !important;
+  }
+  .custom-card img {
+    width: 95%;
+  }
+  .custom-card .tag {
+    top: -35px;
+    right: 0px;
+  }
+}

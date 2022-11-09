@@ -1,0 +1,47 @@
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--white);
+  align-items: center;
+}
+.header-body {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.header-body li a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: var(--secondary);
+  line-height: 29px;
+  font-size: 14px;
+}
+.header-body li .active {
+  color: var(--primary) !important;
+}
+.header-body li a:hover {
+  color: var(--primary);
+}
+
+.mobile-hide {
+  display: block;
+}
+.mobile-show {
+  display: none;
+}
+.header-bottom {
+  display: none;
+}
+.mobile-header-top {
+  display: none;
+}
+
+.card-wallet {
+  background: #f7ddd9;
+  padding: 10px;
+}

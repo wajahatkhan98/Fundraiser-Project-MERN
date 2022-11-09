@@ -1,0 +1,702 @@
+:root {
+  --primary: #ff4040;
+  --secondary: rgb(74, 52, 11);
+  --white: #fff;
+  --black: #000000;
+  --gray: gray;
+  --dark-gray: #a6a6a6;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap'); */
+@font-face {
+  font-family: "exposit";
+  src: URL("../fonts/Exposit-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "deftone";
+  src: URL("../fonts/deftone\ stylus.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: URL("../fonts/Bebas_Neue_Pro_Book.otf") format("truetype");
+}
+@font-face {
+  font-family: "josefin Sans";
+  src: URL("../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mistral";
+  src: URL("../fonts/mistral.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Breef serif";
+  src: URL("../fonts/BreeSerif-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Breef serif";
+}
+p {
+  letter-spacing: 2px;
+}
+
+.btn {
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.primary-btn {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.primary-btn:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.secondary-btn {
+  background: var(--white);
+  color: var(--primary);
+}
+
+.secondary-btn:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.banner-section {
+  background-image: url("../images/banner-img.jpg");
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-inner {
+  height: 600px;
+  position: relative;
+}
+
+.absolute-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+.banner-section img {
+  width: 100%;
+}
+
+.banner-text {
+  /* position: absolute;
+    bottom: 0; */
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* right: 0;
+    left: 0; */
+  font-size: 99px;
+  font-family: "josefin Sans";
+}
+
+.common-heading {
+  letter-spacing: normal;
+  line-height: 1.2em;
+  font-size: 32px;
+  font-family: "josefin Sans";
+}
+
+.custom-card {
+  width: 350px;
+  margin: 1rem auto;
+}
+
+.custom-card img {
+  width: 100%;
+}
+
+.custom-card h3 {
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.section2 {
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.normal-padding {
+  padding-top: 5rem;
+}
+
+.section-background {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.custom-card-two {
+  width: 357px;
+  margin: 1rem auto;
+}
+.custom-card-two img {
+  width: 100%;
+}
+
+.custom-card-two h3 {
+  font-size: 20px;
+  color: var(--white);
+  text-align: center;
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.card-title {
+  color: var(--primary);
+  font-family: "Breef Serif";
+  font-weight: 600;
+}
+
+.card-lg h4 {
+  line-height: 1.2em;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.card-lg p {
+  line-height: 1.7em;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin: 2.5rem 0;
+  color: var(--secondary);
+}
+
+
+.card-lg:nth-child(1) {
+  width: 450px;
+  margin: 3rem auto;
+}
+
+.card-image-two {
+  position: absolute;
+  width: 105%;
+  left: -12px;
+  height: 550px;
+  top: 0;
+  bottom: 0;
+}
+
+.custom-input {
+  border-radius: 5px;
+  background: var(--black);
+  border: none;
+  height: 40px;
+  color: #fff;
+}
+
+::placeholder {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.Background-fixed {
+  background-image: url("../images/lastsection.jpeg");
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.ImageBackgroundWrap {
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-text {
+  padding: 13%;
+  color: white;
+  text-align: center;
+}
+
+.card-lg-smos-img {
+  /* position: sticky;
+    width: 105%;
+    left: -12px;
+    top: 0;
+    bottom: 40px; */
+  width: 100%;
+}
+
+.col-without-padding .col-lg-6 {
+  padding: 0;
+}
+
+.first-section-with-title {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.heading-section-border {
+  padding: 2rem 0;
+  border: 3px solid var(--dark-gray);
+  border-left: none;
+  border-right: none;
+}
+
+.heading-section-border h2 {
+  margin: 0;
+  color: var(--primary);
+}
+
+.items {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.items img {
+  width: 250px;
+}
+
+.items .title-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items .title-section .first {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px dotted var(--primary);
+  color: var(--primary);
+}
+
+.items .title-section .first svg {
+  fill: var(--primary);
+  margin-right: 0.5rem;
+}
+
+.items .title-section sub {
+  font-size: 20px;
+}
+
+.items p {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.items .title-section h3 {
+  margin: 0;
+}
+.image-section {
+  overflow: hidden;
+}
+.shop-item a .image-section:hover > img {
+  transform: scale(1.1);
+}
+.shop-item a {
+  text-decoration: none;
+  overflow: hidden !important;
+  display: inline-block;
+  color: var(--black);
+}
+.shop-item img {
+  transition: all 1s;
+}
+
+.shop-item .shop-title {
+  font-family: 300 !important;
+  font-size: 25px;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.branch-card {
+  background: #efefef;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.branch-card p {
+  font-size: 22px;
+  color: var(--secondary);
+  margin: 1rem 0;
+}
+/* =========================.investment-section========================= */
+
+#investements {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#investements::before {
+  background-image: url("../images/coffe-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.investment-section {
+  text-align: center;
+  position: relative;
+}
+.investment-section .banner-text {
+  font-family: inherit;
+}
+.investment-section h4 {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.investment-section h2 {
+  font-size: 70px;
+
+  color: var(--primary);
+  font-family: "Breef Serif";
+}
+
+.investment-section p {
+  text-align: right;
+  font-size: 26px;
+  color: var(--secondary);
+}
+.invest-second {
+  padding: 2rem 0;
+  position: relative;
+  background: #fafafa96;
+}
+
+.invest-bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 800px;
+  z-index: -1;
+  opacity: 0.3;
+}
+.investment-second {
+  margin-top: 50px;
+}
+
+.investment-second h3 {
+  font-size: 34px;
+  color: var(--secondary);
+}
+
+.investment-second h2 {
+  font-size: 70px;
+  color: var(--primary);
+}
+.investment-second p {
+  font-size: 18px;
+  color: var(--secondary);
+}
+.invest-second .invest-search-input {
+  flex-basis: 100%;
+}
+.invest-second .invest-search-input input {
+  padding: 14px;
+  margin-right: 24px;
+  width: 590px;
+  color: var(--secondary);
+  border-radius: 4px;
+  border-color: var(--primary);
+}
+.invest-second .invest-search-input input:focus {
+  border-color: var(--secondary);
+  outline: none;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--primary);
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: var(--primary);
+}
+
+::placeholder {
+  color: var(--primary);
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary) !important;
+  border-width: 2px;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: var(--primary) !important;
+}
+.invest-second .btn {
+  padding: 14px 20px;
+  margin-left: 5px;
+}
+.invest-second .bg-image {
+  background-image: url("../images/Textura.webp");
+  background-size: cover;
+  border-radius: 10px;
+}
+.symbol-text {
+  font-size: 14px;
+  color: var(--secondary);
+}
+#investment-simulation .bg-image .content h3 {
+  margin: 0px;
+  font-size: 24px;
+  padding: 10px 0px;
+}
+#investment-simulation .image img {
+  width: 100%;
+}
+#investment-simulation .content p {
+  font-size: 22px;
+}
+.table-images-txt {
+  padding: 10% 0px !important;
+}
+.section2 .img img {
+width: 60%;
+}
+.section-documentation .section2 {
+  padding: 0;
+}
+.section-documentation {
+  color: var(--secondary);
+}
+.section-documentation h3,
+.section-documentation h4 {
+  color: var(--primary);
+}
+#section-bg-atteched .background-text .images img {
+  width: 100%;
+}
+/* ===================invest-now-card============================= */
+.invest-now-card {
+  margin: 1rem;
+}
+.invest-now-card .image-section figure {
+  position: relative;
+  margin: 0 auto;
+}
+.invest-now-card .image-section figure img {
+  transition: all 1s;
+  width: 100%;
+}
+.invest-now-card .image-section figure figcaption img {
+  width: 30px;
+}
+.invest-now-card .image-section figure figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+.invest-now-card .image-section figure figcaption span {
+  margin-left: 10px;
+}
+.invest-now-card
+  .image-section:hover
+  .invest-now-card
+  .image-section
+  figure
+  img {
+  transform: scale(1.1);
+}
+.invest-now-card .line {
+  width: 100%;
+  height: 10px;
+  background: #ff4141;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.invest-now-card h4 {
+  font-size: 1.3rem;
+  font-family: "Breef serif";
+}
+.invest-now-card p {
+  color: var(--secondary);
+}
+/* .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  padding: 9.5px 14px;
+} */
+.state-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+.state-ul li {
+  padding: 0.3rem 0;
+}
+.state-ul li a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 20px;
+}
+.state-ul li a:hover {
+  color: var(--secondary);
+}
+.race-item a {
+  color: var(--primary);
+  font-size: 22px;
+}
+.race-item p {
+  font-size: 20px;
+}
+.team-img {
+  width: 100%;
+}
+.form-heading {
+  color: var(--primary);
+}
+.contact-form {
+  margin-top: 2rem;
+}
+.contact-form input {
+  height: 50px;
+}
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  border-color: var(--primary);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none !important;
+  box-shadow: none;
+  border-color: var(--secondary);
+}
+.contact-image {
+  width: 400px;
+  text-align: center;
+}
+.last-section h2 {
+  font-family: "josefin Sans";
+}
+.blog-creater {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-creater .inner {
+  display: flex;
+  align-items: center;
+}
+.blog-creater img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem;
+}
+.blog-creater span {
+  font-size: 14px;
+}
+.blog-body h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: arial;
+  margin-top: 1rem;
+}
+.blog-body p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-footer div span:not(:first-child) {
+  margin-left: 2rem;
+}
+.blog-footer i {
+  color: var(--primary);
+}
+.blog-img {
+  width: 100%;
+}
+.custom-card .tag {
+  fill: var(--primary);
+  width: 90px;
+  position: absolute;
+  top: -26px;
+  right: -22px;
+}
+.custom-card .tag div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-card .tag div span {
+  position: absolute;
+  font-size: 25px;
+  color: var(--white);
+  font-family: "josefin Sans";
+}
+
+/* ============================dashboard-style==================== */
+.css-o5srbh-MuiPaper-root-MuiAppBar-root {
+  background-color: #ff4141 !important;
+}
+/* ---------------------dashboard-design----------------------- */
+.css-1o1hm4z-MuiDrawer-docked .MuiDrawer-paper {
+  z-index: 222222;
+}
+.dashboard-box {
+  width: 260px;
+  height: 185px;
+  border-radius: 15px !important;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15) !important;
+  padding: 30px 30px 0px !important;
+}
+.dashboard-box h4 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #6f6f6f;
+}
+.chevron-icon {
+  display: none !important;
+}

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Bree Serif", serif;
+  font-family: "Saira Condensed", sans-serif;
+  font-family: "Splash", cursive;
+}
+
+:root {
+  --primary-red: #FF4040;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.alert {
+  padding: 0.5rem 1rem !important;
+}
+
+.alert-dismissible .btn-close {
+  padding: 0.75rem 1rem !important
+}
+
+.section-title,.title-section{
+  font-weight:400;
+  font-size: 25px;
+  color: var(--primary);
+
+}
+
+.analytics{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.analytics .dashboard-box{
+  width: 29.33%;
+  padding: 2rem 2rem;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem 1rem;
+}
+.analytics .reward-token-box {
+  padding: 3rem 3rem;
+}
+.analytics .dashboard-box .form-control:focus {
+  box-shadow: 0 0 0 0.12rem #ef3d25;
+  border-color: #ef3d25;
+}
+
+.analytics .dashboard-box hr{
+  background-color: var(--primary);
+}
+
+.form-check-input:checked {
+  background-color: #ff4040 !important;
+  border-color: #ff4040 !important;
+}
+
+.form-check-input:focus {
+  border-color: rgba(255, 64, 64, 0.9) !important;
+}
+
+
+/**/
+.custom-select .form-select {
+  background-color: var(--primary-red);
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  -webkit-appearance: none;
+}
+
